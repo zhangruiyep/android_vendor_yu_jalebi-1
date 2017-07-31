@@ -204,7 +204,7 @@ PRODUCT_PACKAGES += \
 # IMS Additions
 PRODUCT_COPY_FILES += \
     vendor/yu/jalebi/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/yu/jalebi/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \	
+    vendor/yu/jalebi/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/yu/jalebi/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/yu/jalebi/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/yu/jalebi/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
