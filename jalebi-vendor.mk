@@ -207,6 +207,8 @@ PRODUCT_COPY_FILES += \
     vendor/yu/jalebi/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/yu/jalebi/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/yu/jalebi/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+	vendor/yu/jalebi/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
+	vendor/yu/jalebi/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/yu/jalebi/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
     vendor/yu/jalebi/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
@@ -228,7 +230,8 @@ PRODUCT_COPY_FILES += \
     vendor/yu/jalebi/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
     vendor/yu/jalebi/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
     vendor/yu/jalebi/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
-    vendor/yu/jalebi/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+	vendor/yu/jalebi/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/yu/jalebi/proprietary/vendor/app/ims/ims.apk:system/vendor/app/ims/ims.apk \
     vendor/yu/jalebi/proprietary/vendor/app/imssettings/imssettings.apk:system/vendor/app/imssettings/imssettings.apk
