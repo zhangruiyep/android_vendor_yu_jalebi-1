@@ -207,8 +207,8 @@ PRODUCT_COPY_FILES += \
     vendor/yu/jalebi/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/yu/jalebi/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/yu/jalebi/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-	vendor/yu/jalebi/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
-	vendor/yu/jalebi/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/yu/jalebi/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
+    vendor/yu/jalebi/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/yu/jalebi/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
     vendor/yu/jalebi/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
